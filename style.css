@@ -1,0 +1,45 @@
+.schnapsen-width {
+    width: 64px;
+}
+
+.schnapsen-height {
+    height: 102px;
+}
+
+.schnapsen-card {
+    width: 64px;
+}
+
+.schnapsen-suit {
+    width: 12px;
+}
+
+.schnapsen-tricks {
+    display: grid;
+    grid-template-columns: repeat(8, 2.8rem) auto;
+}
+
+.schnapsen-trick {
+    display: grid;
+    grid-template-columns: repeat(2, 1.4rem) auto;
+}
+
+.schnapsen-talon {
+    display: grid;
+    grid-template-columns: repeat(10, 1rem) 84px;
+}
+
+.schnapsen-talon > *:last-child {
+    grid-column: none;
+    align-self: center;
+    justify-self: end;
+}
+
+.schnapsen-talon .schnapsen-trump {
+    z-index: -1;
+    transform: translateX(1rem) rotate(90deg);
+}
+
+.grey-out {
+    filter: grayscale(100%);
+}

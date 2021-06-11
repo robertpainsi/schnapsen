@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "module:@babel/plugin-proposal-class-properties",
+    "module:@babel/plugin-proposal-private-methods",
+    "@babel/plugin-proposal-optional-chaining"
+  ]
+}
